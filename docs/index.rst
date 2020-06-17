@@ -16,8 +16,7 @@ many varieties of simulation, but even more importantly, MDSynthesis allows
 interactive work with the results from hundreds of simulations at once without
 much effort. 
 
-.. warning:: This package is **experimental**. It is not API stable, and has
-             many rough edges and limitations. It is, however, usable.
+.. warning:: This package is not actively maintained, but it is usable.
 
 Efficiently store intermediate data from individual simulations for easy recall
 -------------------------------------------------------------------------------
@@ -32,7 +31,7 @@ HDF5 format when possible.
 Powered by ``datreant`` under the hood
 --------------------------------------
 MDSynthesis is built on top of the general-purpose `datreant`_ library.  The
-Sim is a :class:`~datreant.core.Treant` with special features for working with
+Sim is a :class:`~datreant.Treant` with special features for working with
 molecular dynamics data, but every feature of datreant applies to MDSynthesis.
 
 .. _`datreant`: http://datreant.org/
@@ -51,9 +50,6 @@ the project, clone the repository to your local machine with::
 
 Contributing
 ============
-This project is still under heavy development, and there are certainly rough
-edges and bugs. Issues and pull requests welcome!
-
 MDSynthesis follows the development model of `datreant`_; see the
 `contributor's guide`_ to learn how to get started with contributing back.
 
@@ -67,5 +63,6 @@ MDSynthesis follows the development model of `datreant`_; see the
 
     install
     sims
+    data
     datreant
     api 
